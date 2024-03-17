@@ -1,6 +1,7 @@
 @import "../../../index.scss";
 
 .container-card {
+  box-sizing: border-box;
   width: 23.1rem;
   padding: 0.7rem;
   border-radius: 5px;

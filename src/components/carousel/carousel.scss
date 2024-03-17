@@ -1,16 +1,29 @@
 @import "../../index.scss";
 
-.container-products {
+.conatiner-slider {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 6.1rem;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 5rem;
 
-  .cards {
-    display: flex;
-    justify-content: space-between;
+  .slider {
+    box-sizing: border-box;
     width: 100%;
+    padding: 1rem 0;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5rem;
+    overflow: hidden;
+  }
+
+  .slider-line {
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+
+    .reviews {
+      width: 1334px;
+      display: flex;
+    }
   }
 
   .title {

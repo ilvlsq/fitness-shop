@@ -89,11 +89,13 @@ header {
 
       input {
         width: 16rem;
+        padding: 0 1rem;
         border-radius: 0 0.9rem 0.9rem 0;
         background-color: $black-10;
         outline: none;
         border: none;
       }
+
       & img {
         width: 1.5rem;
         height: 1.5rem;

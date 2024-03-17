@@ -28,12 +28,12 @@ function Header() {
         <div className="container-search">
           <div className="search">
             <div>
-              <img src="search-vector.svg" alt="search icon" />
+              <img src="icons/search-vector.svg" alt="search icon" />
             </div>
             <input type="text" />
           </div>
-          <img src="bag.svg" alt="bag icon" />
-          <img src="heart.svg" alt="heart icon" />
+          <img src="icons/bag.svg" alt="bag icon" />
+          <img src="icons/heart.svg" alt="heart icon" />
         </div>
       </div>
     </header>
