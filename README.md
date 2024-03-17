@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Demo Link]()
+[Demo Link](https://fitness-shop-test.netlify.app/)
 
 ## Description
 
@@ -14,6 +14,10 @@ There are two pages implemented in this project, the first is the main static pa
 ## To start the project locally
 
 _run_
+
+```bsh
+ npm i
+```
 
 ```bsh
  npm run build
