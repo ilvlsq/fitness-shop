@@ -1,0 +1,13 @@
+@import "../../../style/variables.scss";
+
+.conatiner-product-page {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+
+  .path {
+    padding: 1.25rem 6.125rem;
+    font-size: 0.8rem;
+    color: $black-60;
+    font-weight: 300;
+  }
+}

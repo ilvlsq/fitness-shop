@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Fitness shop on React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
 
-Currently, two official plugins are available:
+[Demo Link]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+There are two pages implemented in this project, the first is the main static page, the second is the product page, a dynamic page.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- There are two dynamic blocks on the main page. These are recommended products and reviews, both of these blocks represent slider, and slider elements are generated automatically depending on the API. The data for the blocks comes from the JSON file of the project, but it can also be a database.
+- With React Router, when a user clicks on a product, they are directed to the selected product page, where they can get more information about the product, such as: product photos, description, reviews (the slider component for reviews is reused, but the data for each product is different). Also on the product page you can click "more" and see other products of the store, and go to the page of suggested products.
 
-- Configure the top-level `parserOptions` property like this:
+## To start the project locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+_run_
+
+```bsh
+ npm run build
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bsh
+ npm run preview
+```
+
+## Technologies
+
+- TypeScript
+- React
+- SCSS
+- React Router
+- Vite
